@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoParts Việt — Phụ tùng ô tô chính hãng</title>
+  
+  <!-- ✅ SEO Meta -->
+  <meta name="description" content="Phụ tùng ô tô chính hãng, giao hàng nhanh toàn quốc, bảo hành đầy đủ. AutoParts Việt — uy tín và chất lượng.">
+  <meta name="keywords" content="phụ tùng ô tô, phụ tùng xe hơi, phụ tùng chính hãng, linh kiện ô tô, AutoParts Việt">
+
+  <!-- ✅ Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- ✅ Header với menu -->
+  <header>
+    <div class="logo">AutoParts Việt</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Trang chủ</a></li>
+        <li><a href="#products">Sản phẩm</a></li>
+        <li><a href="#contact">Liên hệ</a></li>
+        <li><a href="#about">Về chúng tôi</a></li>
+      </ul>
+      <!-- Hamburger menu (mobile) -->
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+  <!-- ✅ Hero -->
+  <section id="home" class="hero">
+    <h1>Phụ tùng ô tô chính hãng</h1>
+    <p>Giao hàng nhanh — Bảo hành uy tín</p>
+    <img src="images/hero-car.jpg" alt="Ảnh xe ô tô">
+  </section>
+
+  <!-- ✅ Sản phẩm -->
+  <section id="products">
+    <h2>Sản phẩm nổi bật</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="images/brake-pad.jpg" alt="Má phanh ô tô">
+        <h3>Má phanh ô tô</h3>
+        <p>Chính hãng, bảo hành 12 tháng</p>
+      </div>
+      <div class="product">
+        <img src="images/air-filter.jpg" alt="Lọc gió động cơ">
+        <h3>Lọc gió động cơ</h3>
+        <p>Giúp xe vận hành êm ái, tiết kiệm nhiên liệu</p>
+      </div>
+      <div class="product">
+        <img src="images/engine-oil.jpg" alt="Dầu nhớt tổng hợp">
+        <h3>Dầu nhớt tổng hợp</h3>
+        <p>Bảo vệ động cơ, tuổi thọ cao</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ Form liên hệ -->
+  <section id="contact">
+    <h2>Liên hệ</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="text" name="name" placeholder="Họ và tên" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="tel" name="phone" placeholder="Số điện thoại" required>
+      <textarea name="message" placeholder="Tin nhắn của bạn" required></textarea>
+      <button type="submit">Gửi</button>
+    </form>
+  </section>
+
+  <!-- ✅ Footer -->
+  <footer>
+    <p>© 2025 AutoParts Việt. All rights reserved.</p>
+    <p>Kết nối: 
+      <a href="#">Facebook</a> | 
+      <a href="#">Zalo</a> | 
+      <a href="#">TikTok</a>
+    </p>
+  </footer>
+</body>
+</html>
